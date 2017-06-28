@@ -1,0 +1,46 @@
+permalink: /blog/:year/:month/:title.html 
+#include: ['.htaccess']
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "CNAME", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
+highlights: pygments
+url: 
+lsi: false
+safe: true
+
+# unsfixed
+# Error:  No source of timezone data could be found.
+# Please refer to http://tzinfo.github.io/datasourcenotfound for help resolving this error.
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+#timezone: Asia/Shanghai
+
+auto: false 
+
+paginate: 8
+paginate_path: "page:num"
+
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+JB :
+  IMAGE_PATH : http://ishxiao/img
+
+# presonal config
+url : http://ishxiao.com/blog/
+domain: http://ishxiao.com
+title: Blog
+description: "Stay hungry, stay foolish."
+author: Xiao Shang
+username: ishxiao
+email: me@ishxiao.com
+github: https://github.com/ishxiao
+github_url: https://github.com/ishxiao/blog
+baseurl:
+
+config:
+  js_dir:
+  img_dir:
+  css_dir:
