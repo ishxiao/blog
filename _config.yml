@@ -30,7 +30,7 @@ JB :
 
 # presonal config
 url : http://ishxiao.com/blog/
-domain: http://ishxiao.com/blog
+domain: http://ishxiao.com
 title: Blog
 description: "Stay hungry, stay foolish."
 author: Xiao Shang
@@ -38,7 +38,7 @@ username: ishxiao
 email: me@ishxiao.com
 github: https://github.com/ishxiao
 github_url: https://github.com/ishxiao/blog
-baseurl:
+baseurl: /blog
 
 config:
   js_dir:
