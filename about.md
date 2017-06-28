@@ -12,7 +12,7 @@ title: About
 
 <p class="contact">
  <a href="https://github.com/ishxiao" title="Follow me on Github"><img src="http://www.github.com/favicon.ico" width="24" height="24" style="display:inline-block;vertical-align:middle"></a><br/>
-Email: me@ishxiao.com 
+<a href="mailto:{{ site.email }}"><span class="glyphicon glyphicon-envelope"></span> {{ site.email }}</a>
 </p>
 
 ### About
