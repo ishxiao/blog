@@ -1,6 +1,6 @@
 ---
 title: How to Support LaTeX in GitHub-Pages
-time: 2017.06.29 08:36:00 +0800
+time: 2017-06-29 08:36:00 +0800
 layout: post
 keywords: latex, markdown
 categories : [latex, github-pages]

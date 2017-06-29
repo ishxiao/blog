@@ -1,6 +1,6 @@
 ---
 title: The Only Way to Cope with the Future
-time: 2017.06.28 11:00:00 +0800
+time: 2017-06-28 11:00:00 +0800
 layout: post
 keywords: future, life
 categories : [future, life]
