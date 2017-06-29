@@ -53,15 +53,13 @@ Read the [documentation][8] on the syntax for more details.
  
 Here is a code sample:
     
-```
+	```
+		{% raw %}
 
-	{% raw %}
+    	$$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
 
-    $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
-
-    {% endraw %}
-
-```
+    	{% endraw %}
+	```
 
 Lastly also ensure that the fonts support displaying LateX as some have issues like font size being too small. Alternatively here are some [additional methods like Google Charts and MathML][10] discussed in the latex StackExchange sister site.
 
