@@ -52,11 +52,14 @@ Read the [documentation][8] on the syntax for more details.
    `\\[ \frac{1}{n^{2}} \\]`) to ensure they are parsed properly, [as described by Chistopher Poole's tutorial][9], this is not always intuitive and looks complicated. A simpler solution would be to use the raw liquid tag to ensure the text is ignored by the Markdown processor and directly output as a static html. This is done with `{% raw %}`and also `{% endraw %}`
  
 Here is a code sample:
+    
+```
 
-    {% raw %}
+	{% raw %}
     $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
     {% endraw %}
 
+```
 
 Lastly also ensure that the fonts support displaying LateX as some have issues like font size being too small. Alternatively here are some [additional methods like Google Charts and MathML][10] discussed in the latex StackExchange sister site.
 
@@ -65,7 +68,8 @@ Lastly also ensure that the fonts support displaying LateX as some have issues l
 MathJax worked perfectly for me. The page at [docs.mathjax.org/en/latest/start.html][11] has a good sample on it. 
 
 ## List of more detail on
-
+ 
+ 
  - [1 [How to supported latex in github-pages][1]
 
  - [2 [Jekyllrb docs][2]
