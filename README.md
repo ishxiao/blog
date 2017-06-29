@@ -1,4 +1,4 @@
-# ishxiao's Blog [![Build status](http://ishxiao.com/blog)]
+# ishxiao's Blog [![Build status]({{site.url}}/img/badge/icon)]({{site.url}})
 
 Topics: Stay hungry, stay foolish.
 
