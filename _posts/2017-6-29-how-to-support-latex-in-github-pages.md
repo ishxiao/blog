@@ -24,7 +24,7 @@ Note that the closest to Latex rendering without exporting as images and nativel
 
 **Option 1:** Write your equation in [MathURL][4] and embed it.
 
-You could write the equation with MathURL, then generate a url that permanently points to the equation, and display this in an '''<iframe>''' tag. However, this will stop working if MathURL goes offline.
+You could write the equation with MathURL, then generate a url that permanently points to the equation, and display this in an `<iframe>` tag. However, this will stop working if MathURL goes offline.
  
 **Option 2:** Implement [jsMath][5]
 
@@ -42,26 +42,26 @@ Many sites have mentioned that Mathjax is considered a successor of jsMath, and 
  
 Quoting this tutorial by Gaston Sanchez:
 
-"MathJax does not have the exactly same behavior as LaTeX. By default, the tex2jax preprocessor defines the LaTeX math delimiters, which are \(...\) for in-line math, and \[...\] for displayed equations. It also defines the TeX delimiters $$...$$ for displayed equations, but it does not define $...$ as in-line math delimiters."
+>MathJax does not have the exactly same behavior as LaTeX. By default, the tex2jax preprocessor defines the LaTeX math delimiters, which are `\(...\)` for in-line math, and `\[...\]` for displayed equations. It also defines the TeX delimiters `$$...$$` for displayed equations, but it does not define `$...$` as in-line math delimiters.
 
 Read the [documentation][8] on the syntax for more details.
 
-- [1 **Note:** Using the raw liquid tag to ensure Markdown parsers do not interfere with MathJax syntax.
+   - [1 **Note:** Using the raw liquid tag to ensure Markdown parsers do not interfere with MathJax syntax.
 
-- [2 While you could escape backslashes (e.g. 
- `\\[ \frac{1}{n^{2}} \\]`) to ensure they are parsed properly, [as described by Chistopher Poole's tutorial][9], this is not always intuitive and looks complicated. A simpler solution would be to use the raw liquid tag to ensure the text is ignored by the Markdown processor and directly output as a static html. This is done with `{% raw %}`and also `{% endraw %}`
-- 
+   - [2 While you could escape backslashes (e.g. 
+   `\\[ \frac{1}{n^{2}} \\]`) to ensure they are parsed properly, [as described by Chistopher Poole's tutorial][9], this is not always intuitive and looks complicated. A simpler solution would be to use the raw liquid tag to ensure the text is ignored by the Markdown processor and directly output as a static html. This is done with `{% raw %}`and also `{% endraw %}`
+ 
 Here is a code sample:
 
-```
- {% raw %}
-  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
- {% endraw %}
-```
+    {% raw %}
+    $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
+    {% endraw %}
+
 
 Lastly also ensure that the fonts support displaying LateX as some have issues like font size being too small. Alternatively here are some [additional methods like Google Charts and MathML][10] discussed in the latex StackExchange sister site.
 
 ## Comment
+
 MathJax worked perfectly for me. The page at [docs.mathjax.org/en/latest/start.html][11] has a good sample on it. 
 
 ## List of more detail on
