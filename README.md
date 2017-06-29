@@ -1,4 +1,6 @@
-# ishxiao's Blog      [building](https://github.com/ishxiao/blog)|[running](https://ishxiao.github.io/blog)
+# ishxiao's Blog
+
+-  [building](https://github.com/ishxiao/blog)|[running](https://ishxiao.github.io/blog)
 
 
 Topics: Stay hungry, stay foolish.
