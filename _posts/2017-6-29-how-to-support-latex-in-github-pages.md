@@ -14,7 +14,7 @@ tags : [latex, markdown]
 $$\mathrm{i}\hbar\frac{\partial \psi}{\partial t} = 
 -\frac{\hbar^2}{2m}\nabla^2 \psi + V\psi$$
 
-Orginal text from [stackoverflow page][1]
+**Note:** Original text from [stackoverflow page][1].
 
 Since resources online have changed regarding this question, here's an update on supporting $$\LaTeX{}$$ with [Github](https://github.com/ishxiao/blog) Pages.
 
@@ -36,7 +36,7 @@ Many sites have mentioned that Mathjax is considered a successor of jsMath, and 
 
 - [1 **Step 1:** Have your site load the script in sites where you want to display math. (usually done in the header)
 
-- [2 Optional: Check your markdown parser in ```_config.yml```. ```redcarpet``` or ```kramdown``` is suggested in this example. Certain parsers like ```discount``` will interfere with the syntax but I have a solution below.
+- [2 Optional: Check your markdown parser in `_config.yml`. `redcarpet` or `kramdown` is suggested in this example. Certain parsers like `discount` will interfere with the syntax but I have a solution below.
 
 - [2 **Step 2:** Write your equations.
  
@@ -48,7 +48,9 @@ Read the [documentation][8] on the syntax for more details.
 
 - [1 **Note:** Using the raw liquid tag to ensure Markdown parsers do not interfere with MathJax syntax.
 
-- [2 While you could escape backslashes (e.g. \\[ \frac{1}{n^{2}} \\])to ensure they are parsed properly, [as described by Chistopher Poole's tutorial][9], this is not always intuitive and looks complicated. A simpler solution would be to use the raw liquid tag to ensure the text is ignored by the Markdown processor and directly output as a static html. This is done with {% raw %}and also {% endraw %}
+- [2 While you could escape backslashes (e.g. 
+ `\\[ \frac{1}{n^{2}} \\]`) to ensure they are parsed properly, [as described by Chistopher Poole's tutorial][9], this is not always intuitive and looks complicated. A simpler solution would be to use the raw liquid tag to ensure the text is ignored by the Markdown processor and directly output as a static html. This is done with `{% raw %}`and also `{% endraw %}`
+- 
 Here is a code sample:
 
 ```
@@ -106,4 +108,4 @@ MathJax worked perfectly for me. The page at [docs.mathjax.org/en/latest/start.h
 
    [10]: https://tex.stackexchange.com/questions/129/embedding-latex-equations-into-a-webpage
 
-   [11] http://docs.mathjax.org/en/latest/start.html
+   [11]: http://docs.mathjax.org/en/latest/start.html
