@@ -37,7 +37,7 @@ layout: default
 	  {%if page.previous%}
 	  <span class="next">
 	    Previous：
-	    <a href="{{page.previous.url}}">
+	    <a href="{{site.baseurl}}/{{page.previous.url}}">
 	      {{page.previous.title}}
 	    </a>
 	  </span>
@@ -45,7 +45,7 @@ layout: default
 	  {%if page.next%}
 	  <span class="prev">
 	    Next：
-	    <a href="{{page.next.url}}">
+	    <a href="{{site.baseurl}}/{{page.next.url}}">
 	      {{page.next.title}}
 	    </a>
 	  </span>
@@ -60,7 +60,7 @@ layout: default
               {% for post in posts %}
                 {% if post.url %}
 		<li>
-                  <a href="{{ post.url }}" class="post-list-item">
+                  <a href="{{site.baseurl}}/{{ post.url }}" class="post-list-item">
                     <h2>{{ post.title }}</h2>
                     <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
                   </a>

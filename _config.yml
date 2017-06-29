@@ -26,7 +26,7 @@ kramdown:
   use_coderay: false
 
 JB :
-  IMAGE_PATH : http://ishxiao/img
+  IMAGE_PATH : http://ishxiao.com/blog/img
 
 # presonal config
 url : http://ishxiao.com/blog/
