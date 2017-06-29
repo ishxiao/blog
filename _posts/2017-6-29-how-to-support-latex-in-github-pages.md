@@ -34,11 +34,11 @@ jsMath will allow almost LateX like syntax and will be supported in your blog if
 
 Many sites have mentioned that Mathjax is considered a successor of jsMath, and is much easier to implement with Jekyll. [MathJax is also used by mathematics.stackexchange.com too!][7]
 
-- [1 **Step 1:** Have your site load the script in sites where you want to display math. (usually done in the header)
+  - **Step 1:** Have your site load the script in sites where you want to display math. (usually done in the header)
 
-- [2 Optional: Check your markdown parser in `_config.yml`. `redcarpet` or `kramdown` is suggested in this example. Certain parsers like `discount` will interfere with the syntax but I have a solution below.
+  - Optional: Check your markdown parser in `_config.yml`. `redcarpet` or `kramdown` is suggested in this example. Certain parsers like `discount` will interfere with the syntax but I have a solution below.
 
-- [2 **Step 2:** Write your equations.
+  - **Step 2:** Write your equations.
  
 Quoting this tutorial by Gaston Sanchez:
 
@@ -46,17 +46,19 @@ Quoting this tutorial by Gaston Sanchez:
 
 Read the [documentation][8] on the syntax for more details.
 
-   - [1 **Note:** Using the raw liquid tag to ensure Markdown parsers do not interfere with MathJax syntax.
+  - **Note:** Using the raw liquid tag to ensure Markdown parsers do not interfere with MathJax syntax.
 
-   - [2 While you could escape backslashes (e.g. 
-   `\\[ \frac{1}{n^{2}} \\]`) to ensure they are parsed properly, [as described by Chistopher Poole's tutorial][9], this is not always intuitive and looks complicated. A simpler solution would be to use the raw liquid tag to ensure the text is ignored by the Markdown processor and directly output as a static html. This is done with `{% raw %}`and also `{% endraw %}`
+  - While you could escape backslashes (e.g.
+  `\\[ \frac{1}{n^{2}} \\]`) to ensure they are parsed properly, [as described by Chistopher Poole's tutorial][9], this is not always intuitive and looks complicated. A simpler solution would be to use the raw liquid tag to ensure the text is ignored by the Markdown processor and directly output as a static html. This is done with `{% raw %}`and also `{% endraw %}`
  
 Here is a code sample:
     
 ```
 
 	{% raw %}
+
     $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
+
     {% endraw %}
 
 ```
@@ -67,28 +69,27 @@ Lastly also ensure that the fonts support displaying LateX as some have issues l
 
 MathJax worked perfectly for me. The page at [docs.mathjax.org/en/latest/start.html][11] has a good sample on it. 
 
-## List of more detail on
+##List of more detail on
  
+ - [1] [How to supported latex in github-pages][1]
+
+ - [2] [Jekyllrb docs][2]
+
+ - [3] [Kramdown documentation][3]
+
+ - [4] [MathURL][4]
+
+ - [5] [jsMath][5] and [extensive documentation on this][6].
+
+ - [6] [MathJax is also used by mathematics.stackexchange.com too][7] 
+
+ - [7] [documentation][8]
+
+ - [8] [as described by Chistopher Poole's tutorial][9]
+
+ - [9] [additional methods like Google Charts and MathML][10]
  
- - [1 [How to supported latex in github-pages][1]
-
- - [2 [Jekyllrb docs][2]
-
- - [3 [Kramdown documentation][3]
-
- - [4 [MathURL][4]
-
- - [5 [jsMath][5] and [extensive documentation on this][6].
-
- - [6 [MathJax is also used by mathematics.stackexchange.com too][7] 
-
- - [7 [documentation][8]
-
- - [8 [as described by Chistopher Poole's tutorial][9]
-
- - [9 [additional methods like Google Charts and MathML][10]
- 
- - [10 [docs.mathjax.org/en/latest/start.html][11] 
+ - [10] [docs.mathjax.org/en/latest/start.html][11] 
 
 
 
