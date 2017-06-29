@@ -1,4 +1,5 @@
-# ishxiao's Blog [![Build status](https://github.com/ishxiao/blog/tree/gh-pages/img/badge/icon.svg)](https://ishxiao.github.io/blog)
+# ishxiao's Blog      [building](https://github.com/ishxiao/blog)|[running](https://ishxiao.github.io/blog)
+
 
 Topics: Stay hungry, stay foolish.
 
