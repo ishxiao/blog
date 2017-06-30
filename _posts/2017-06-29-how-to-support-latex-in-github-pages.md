@@ -7,9 +7,7 @@ categories : [latex, github-pages]
 tags : [latex, markdown]
 ---
 
-# Math Equation as an example
-
-## Schrödinger Equation
+Schrödinger Equation (Math Equation as an example)
 
 $$\mathrm{i}\hbar\frac{\partial \psi}{\partial t} = 
 -\frac{\hbar^2}{2m}\nabla^2 \psi + V\psi$$
