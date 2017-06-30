@@ -5,7 +5,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 # markdown: redcarpet
 markdown: kramdown
 highlights: pygments
-url: 
+#url: 
 lsi: false
 safe: true
 
@@ -28,19 +28,25 @@ kramdown:
   enable_coderay: false
 
 JB :
-  IMAGE_PATH : http://ishxiao.com/blog/img
+  IMAGE_PATH : /img
 
 # presonal config
-url : http://ishxiao.com/blog/
-domain: http://ishxiao.com
 title: Blog
-description: "Stay hungry, stay foolish."
-author: Xiao Shang
-username: ishxiao
-email: me@ishxiao.com
-github: https://github.com/ishxiao
-github_url: https://github.com/ishxiao/blog
 baseurl: /blog
+
+me:
+  name: ishxiao
+  author: Xiao Shang  
+  email: me@ishxiao.com
+  domain: http://ishxiao.com
+  description: "Stay hungry, stay foolish."
+
+github:
+  username: ishxiao
+  gh-page:  blog
+  homepage: https://github.com  
+  icon: favicon.ico
+  
 
 plugins: 
 - jekyll-paginate:

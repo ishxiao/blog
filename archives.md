@@ -10,6 +10,6 @@ title: Archives
 	{% if year != nyear %} 
     <h2>{{ post.date | date: '%Y' }}</h2> {% endif %} 
 	{% endunless %} 
-    <li><h4><span>{{ post.date | date_to_string }}</span>&raquo;<a href="{{site.baseurl}}/{{ post.url }}">{{ post.title }}</a></h4></li> 
+    <li><h4><span>{{ post.date | date_to_string }}</span>&raquo;<a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h4></li> 
 	{% endfor %} 
 </ul> 
