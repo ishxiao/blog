@@ -5,8 +5,8 @@ title: About
 
 ## Resume
 
-* Xiao Shang
-* Research in Theoretical Quantum Physics
+* ishxiao
+* Research in Quantum Physics
 
 ## Contact
 
