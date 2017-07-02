@@ -1,4 +1,4 @@
-# ishxiao's Blog
+# ishx Blog
 
 - [building](https://github.com/ishxiao/blog/)|[running](https://ishxiao.github.io/blog/)
 
