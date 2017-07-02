@@ -4,7 +4,7 @@ time: 2017-06-29 08:36:00 +0800
 layout: post
 keywords: latex, markdown
 categories : [latex, github-pages]
-tags : [latex, markdown]
+tags : [latex, MathJax]
 ---
 
 Schrödinger Equation (Math Equation as an example)
