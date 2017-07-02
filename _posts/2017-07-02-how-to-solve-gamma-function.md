@@ -92,3 +92,6 @@ I = \int_{-\infty}^{\infty} e^{-x^2} \mathrm{d}x = \boxed{\sqrt{\pi}}.
 $$
 
 More information see [here](https://en.wikipedia.org/wiki/Gamma_function).
+
+Related article maybe useful to you:
+ - [How to Support $$\LaTeX{}$$ in GitHub-Pages]({{site.baseurl}}/blog/2017/06/how-to-support-latex-in-github-pages.html)
