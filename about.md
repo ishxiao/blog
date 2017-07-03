@@ -10,8 +10,6 @@ title: About
 
 ## Contact
 
- 
-
 - <p class="contact">
   <a href="{{site.github.homepage}}/{{site.github.username}}" title="Follow me on Github"><img src="{{site.github.homepage}}/{{site.github.icon}}" width="24" height="24" style="display:inline-block;vertical-align:middle"></a><br/>
 
