@@ -14,7 +14,7 @@ $$\mathrm{i}\hbar\frac{\partial \psi}{\partial t} =
 
 **Note:** Original text from [stackoverflow page][1].
 
-Since resources online have changed regarding this question, here's an update on supporting \(LaTeX{}\) with [Github](https://github.com/ishxiao/blog) Pages.
+Since resources online have changed regarding this question, here's an update on supporting $$LaTeX{}$$ with [Github Pages](https://github.com/ishxiao/blog).
 
 Note that the closest to Latex rendering without exporting as images and natively supporting it on your Jekyll site would be to use MathJax.
  
