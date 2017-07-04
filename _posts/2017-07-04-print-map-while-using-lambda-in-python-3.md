@@ -29,6 +29,8 @@ print(*primes, sep='\n')
 
 NOTE: I said earlier that `'\n'.join` would be a good idea. That is only true for a list of str's.
 
-More information see [here][1]
+More information see [here][1] and [there][2]
 
   [1]: https://stackoverflow.com/questions/7731213/print-doesnt-print-when-its-in-map-python
+
+  [2]: https://www.zhihu.com/question/20125256
