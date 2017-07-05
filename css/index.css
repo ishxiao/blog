@@ -123,6 +123,10 @@ nav{
 	width: 80px;
 	text-align: center;
 }
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
 
 /* index main */
 .main{
@@ -612,5 +616,3 @@ blockquote:last-child {
 		padding-left: 25px;
 	}
 }
-
-
