@@ -1,6 +1,6 @@
 ---
 title: Print map while using lambda in Python 3
-time: 2017-06-27 16:00:00 +0800
+time: 2017-07-04 16:00:00 +0800
 layout: post
 keywords: map, lambda, python
 categories : [python]
