@@ -8,7 +8,7 @@ tags : [github]
 ---
 
 - `git remote -v`
-- 
+
  origin: native branch
 
  upstream: origin branch
