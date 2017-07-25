@@ -8,15 +8,14 @@ tags : [CSS]
 ---
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing:border-box}
-body {font-family: Verdana,sans-serif;}
+/*body {font-family: Verdana,sans-serif;}*/
 .mySlides {display:none}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 950px;
   position: relative;
   margin: auto;
 }
