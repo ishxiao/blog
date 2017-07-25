@@ -23,7 +23,7 @@ An audio file that will automatically start playing:
 
 	<audio controls autoplay>
 	  <source src="audio.ogg" type="audio/ogg">
-	  <source src="adudio.mp3" type="audio/mpeg">
+	  <source src="audio.mp3" type="audio/mpeg">
 	  Your browser does not support the audio element.
 	</audio> 
 
