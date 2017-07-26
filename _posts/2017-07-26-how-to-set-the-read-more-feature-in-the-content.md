@@ -49,6 +49,7 @@ function show_more_content(){
 	
 	<p> word word word <div id = "more_content"> <a onclick = "show_more_content()"> Read more </a> </div></p>
 
+### Preview ###
 
 <p>The following two divs contains a long text that will not fit in the box. As you can see, the text is clipped.</p>
 
@@ -67,3 +68,27 @@ function show_more_words() {
     x.style.color = "green";
 }
 </script>
+
+**Code**
+
+	<p>The following two divs contains a long text that will not fit in the box. As you can see, the text is clipped.</p>
+	
+	<p>This div uses "text-overflow:clip":</p>
+	<div id="div1">This is some long text that will not fit in the box</div>
+	
+	<p>This div uses "text-overflow:ellipsis":</p>
+	<div id="more_words"><div id="div2">This is some long text that will not fit in the box</div></div>
+	
+	<a onclick="show_more_words()">more words</a>
+	
+	<script>
+	function show_more_words() {
+	    var x = document.getElementById("more_words");
+		x.innerHTML = "This is some long text that will not fit in the box";
+	    x.style.color = "green";
+	}
+	</script>
+
+More information see [here][1]
+
+  [1]: https://www.w3schools.com/cssref/css3_pr_text-overflow.asp
