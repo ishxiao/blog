@@ -23,8 +23,8 @@ Using an `<object>` enables you to leave fallback content if the browser doesn't
 </object>
 
 ### Code ### 
-`
-(In Preview, ```height = "100%"``` has revised as ```height = "960px"``` for a full single page)
+
+(In Preview, `height = "100%"` has revised as `height = "960px"` for a full single page)
 
 	<object width="100%" height="100%" data="{{site.baseurl}}/pdf/sample.pdf#page=2" type="application/pdf">
 	   <p><b>Example fallback content</b>: This browser does not support PDFs. Please download the PDF to view it: <a href="{{site.baseurl}}/pdf/sample.pdf">Download PDF</a>.</p>
