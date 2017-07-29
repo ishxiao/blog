@@ -16,12 +16,13 @@
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Show more';
+  content: 'Read more';
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Show less';
+  content: 'Read less';
 }
+
 
 .read-more-trigger {
   cursor: pointer;
@@ -30,7 +31,7 @@
   color: #666;
   font-size: .9em;
   line-height: 2;
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
   border-radius: .25em;
 }
 
