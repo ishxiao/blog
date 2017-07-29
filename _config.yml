@@ -49,6 +49,9 @@ github:
   avatar: https://avatars2.githubusercontent.com/u/22900608?v=3&amp;s=64
   
 
+# fixed tag not closed bug in high version 
+excerpt_separator: "" 
+#
 plugins: 
   jekyll-paginate:
 
