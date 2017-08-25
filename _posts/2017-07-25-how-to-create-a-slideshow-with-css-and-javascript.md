@@ -1,6 +1,6 @@
 ---
 title: How to create a Slideshow with CSS and JavaScript
-time: 2017-07-25 00:13:00 +0800
+time: 2017-07-25 13:00:00 +0800
 layout: post
 keywords: slideshow
 categories : [html]

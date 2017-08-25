@@ -1,6 +1,6 @@
 ---
 title: How to change the font size on a matplotlib plot
-time: 2017-07-23 00:10:00 +0800
+time: 2017-07-23 10:00:00 +0800
 layout: post
 keywords: matplotlib
 categories : [python]

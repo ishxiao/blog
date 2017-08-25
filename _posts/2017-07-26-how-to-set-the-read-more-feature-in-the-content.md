@@ -1,6 +1,6 @@
 ---
 title: How to set the read more feature in the content
-time: 2017-07-26 00:13:00 +0800
+time: 2017-07-26 13:00:00 +0800
 layout: post
 keywords: html
 categories : [html]

@@ -1,6 +1,6 @@
 ---
 title: How to play audio and video in html
-time: 2017-07-25 00:13:00 +0800
+time: 2017-07-25 13:00:00 +0800
 layout: post
 keywords: audio
 categories : [html]
