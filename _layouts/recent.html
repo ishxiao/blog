@@ -2,17 +2,15 @@
 layout: default
 --- 
 
-<div class = "content">
-  <!-- Loop output paged posts -->
-  {% for post in site.posts %}
-    <ul class = "text-left">
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    <span class="date">{{ post.date | date_to_string }}</span>
+<!-- Loop output paged posts -->
+{% for post in site.posts %}
+<ul class = "text-left">
+<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+<span class="date">{{ post.date | date_to_string }}</span>
 
-    <input type="checkbox" class="read-more-state" id= "{{ post.id }}" />
-    <p class="read-more-wrap">{% if post.excerpt.size > 32 %}{{ post.excerpt }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}
-    <span class="read-more-target">Read more about {{ post.title }}</span></p>
-    <label for= "{{ post.id }}" class="read-more-trigger"></label>
-	</ul>
-  {% endfor %}
-</div>
+<input type="checkbox" class="read-more-state" id= "{{ post.id }}" />
+<p class="read-more-wrap">{% if post.excerpt.size > 32 %}{{ post.excerpt }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}
+<span class="read-more-target">Read more about {{ post.title }}</span></p>
+<label for= "{{ post.id }}" class="read-more-trigger"></label>
+</ul>
+{% endfor %}
