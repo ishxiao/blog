@@ -34,7 +34,7 @@ tags : [Physics]
 - [23 Astro Particle Physics](#23-astro-particle-physics)
 - [24 Super String Theory](#24-super-string-theory)
 - [25 Texts and Other resources](#25-texts-and-other-resources)
-- [26 Responses and Questions](#26-Responses-and-Questions)
+- [26 Responses and Questions](#26-responses-and-questions)
 
 # 1 Languages
 
