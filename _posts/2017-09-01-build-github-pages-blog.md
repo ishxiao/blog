@@ -785,6 +785,7 @@ google的站内搜索叫：custome search engine：[http://www.google.com/cse](h
 
 认证成功后，进入[sitemaps网站](http://www.xml-sitemaps.com/),在下面填入你的网站后点击start，
 ![]({{site.baseurl}}/images/githubpages/sitemap.jpg)
+
 接下来下载sitemap文件，把它上传到你的域名根目录，
 打开Optimization->Sitemaps，点击Add/TEST SITEMAP，输入指向你的站点的sitemap地址，本博客的sitemap是：[http://coolshell.info/sitemap.xml](http://coolshell.info/sitemap.xml),过几分钟就看到下面的结果：
 ！[]({{site.baseurl}}/images/githubpages/sitemap2.jpg)
