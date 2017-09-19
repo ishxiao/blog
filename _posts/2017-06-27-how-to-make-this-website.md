@@ -7,10 +7,6 @@ categories : [jekyll]
 tags : [github, jekyll]
 ---
 
-I've designed [my personal site][1] recently.
-
-More information on [GitHub Pages][2].
+I've designed [my homepage][1] recently.
 
   [1]: http://ishxiao.com
-
-  [2]: https://pages.github.com
