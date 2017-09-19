@@ -1,6 +1,6 @@
 ---
 title: 利用github-pages建立个人博客
-time: 2017-09-01 18:00:00 +0800
+time: 2017-07-01 18:00:00 +0800
 layout:     post
 keywords:	blog
 categories : [other, programming,]
