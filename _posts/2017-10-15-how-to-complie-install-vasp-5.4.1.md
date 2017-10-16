@@ -1,5 +1,5 @@
 ---
-title: How to complie/install VASP 5.4.1 on Ubuntu 16.04 LTS
+title: How to complie and install VASP 5.4.1 on Ubuntu 16.04 LTS
 time: 2017-10-15 12:36:00 +0800
 layout: post
 keywords: VASP, Ubuntu, Linux
@@ -11,15 +11,15 @@ This tutorial will explain how to install VASP 5.4.1 on Ubuntu 16.04 LTS.
 
 **Table of Contents**
 
-- [step 0: Before installing](#step-0-before-installing)
-- [step 1: Acquiring the necessary packages](#step-1-acquiring-the-necessary-packages)
-- [step 2: Extracting the VASP source tar and adding patch](#step-2-extracting-the-vasp-source-tar-and-adding-patch)
-- [step 3: Setting the build procedure](#step-3-setting-the-build-procedure)
-- [step 4: Configuring the makefile](#step-4-configuring-the-makefile)
-- [step 5: Compiling](#step-5-compiling)
+- [Step 0: Before installing](#step-0-before-installing)
+- [Step 1: Acquiring the necessary packages](#step-1-acquiring-the-necessary-packages)
+- [Step 2: Extracting the VASP source tar and adding patch](#step-2-extracting-the-vasp-source-tar-and-adding-patch)
+- [Step 3: Setting the build procedure](#step-3-setting-the-build-procedure)
+- [Step 4: Configuring the makefile](#step-4-configuring-the-makefile)
+- [Step 5: Compiling](#step-5-compiling)
 
 
-step 0: Before installing
+Step 0: Before installing
 -------------------------
 
 As an old saying syas, 
@@ -37,7 +37,7 @@ patch.5.4.1.03082016.gz
 ```
 
 
-step 1: Acquiring the necessary packages
+Step 1: Acquiring the necessary packages
 ----------------------------------------
 
 Install some necessary packages.
@@ -55,7 +55,7 @@ $ sudo apt-get install libfftw3-dev
 $ sudo apt-get install libfftw3-3
 ```
 
-step 2: Extracting the VASP source tar and adding patch
+Step 2: Extracting the VASP source tar and adding patch
 -------------------------------------------------------
 
 Go to the root directory of the VASP package.
@@ -69,7 +69,7 @@ $ patch -p0 < ../patch.5.4.1.14032016
 $ patch -p0 < ../patch.5.4.1.03082016
 ```
 
-step 3: Setting the build procedure
+Step 3: Setting the build procedure
 -----------------------------------
 You need to copy the makefile corresponding to your build architecture. Here, I assume we are going to use the GNU compiler, so you need to copy the makefile for gfortran
 
@@ -77,7 +77,7 @@ You need to copy the makefile corresponding to your build architecture. Here, I 
 $ cp arch/makefile.include.linux_gfortran makefile.include
 ```
 
-step 4: Configuring the makefile
+Step 4: Configuring the makefile
 --------------------------------
 
 You need to edit the file `makefile.include` and tweak some directives in the Makefile to point the compiler to the right libraries and header files. Try the following directives.
@@ -142,7 +142,7 @@ BINDIR     = ../../bin
 
 ```
 
-step 5: Compiling
+Step 5: Compiling
 -----------------
 
 You are now ready to compile VASP.
