@@ -164,7 +164,6 @@ vasp.5.4.1/
 ├── makefile
 ├── makefile.include
 └── README
-
 ```
 
 More detail seeing here:
