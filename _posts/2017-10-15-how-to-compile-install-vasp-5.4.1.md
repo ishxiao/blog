@@ -1,5 +1,5 @@
 ---
-title: How to complie and install VASP 5.4.1 on Ubuntu 16.04 LTS
+title: How to compile and install VASP 5.4.1 on Ubuntu 16.04 LTS
 time: 2017-10-15 12:36:00 +0800
 layout: post
 keywords: VASP, Ubuntu, Linux
