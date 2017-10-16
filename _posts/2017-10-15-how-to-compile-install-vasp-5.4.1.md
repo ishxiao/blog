@@ -92,6 +92,8 @@ or
 $ vim makefile.include
 ```
 
+Contents of `makefile.include`
+
 ```
 # Precompiler options
 CPP_OPTIONS= -DMPI -DHOST=\"IFC91_ompi\" -DIFC \

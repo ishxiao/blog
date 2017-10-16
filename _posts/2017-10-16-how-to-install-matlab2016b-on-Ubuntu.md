@@ -7,6 +7,8 @@ categories : [Ubuntu]
 tags : [Matlab]
 ---
 
+This tutorial will explain how to install Matlab2016b on Ubuntu 16.04 LTS.
+
 The instaling files are usually divided into three packages, that is
 
 
@@ -108,4 +110,3 @@ Get support from Mathworks, such as shortcut, rename the gcc library, and so on.
 ```
 $ sudo apt-get install matlab-support
 ```
-
