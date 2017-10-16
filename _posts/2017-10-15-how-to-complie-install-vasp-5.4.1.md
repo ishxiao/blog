@@ -87,6 +87,7 @@ $ gedit makefile.include
 ```
 
 or 
+
 ```
 $ vim makefile.include
 ```
@@ -149,6 +150,7 @@ You are now ready to compile VASP.
 `$ make all`
 
 Once finished without error, you would obtain the compilied files in the directory (i.e. `bin/`):
+
 
 ```
 vasp.5.4.1/
