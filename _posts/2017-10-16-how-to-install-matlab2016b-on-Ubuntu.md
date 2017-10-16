@@ -22,7 +22,7 @@ Matlab 2016b Linux64 Crack.rar
 - [Step 1: Mount the directory](#step-1-mount-the-directory)
 - [Step 2: Start to install](#step-2-start-to-install)
 - [Step 4: Mount the second dvd file](#step-4-mount-the-second-dvd-file)
-- [Step 5: Complete the installation activate Matlab](#step-5-complete-the-installation-activate-matlab)
+- [Step 5: Complete the installation](#step-5-complete-the-installation)
 - [Step 6: Obtain support](#step-6-obtain-support)
 
 Step 0: Before installing
@@ -73,7 +73,7 @@ $ sudo umount /media/Matlab_R2016b
 $ sudo mount -t auto -o loop R2016b_glnxa64_dvd1.iso /media/Matlab_R2016b
 ```
 
-Step 5: Complete the installation activate Matlab
+Step 5: Complete the installation
 -------------------------------------------------
 
 Once finished the installing in the GUI, then umount the dvd2 from `/media/Matlab_R2016b`.
