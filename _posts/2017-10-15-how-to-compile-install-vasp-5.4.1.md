@@ -168,6 +168,14 @@ vasp.5.4.1/
 └── README
 ```
 
+
+Finally, run like :
+
+```
+/usr/bin/mpirun.openmpi -np 4 /vasp/vasp.5.4.1/bin/vasp_std
+```
+
+
 More detail seeing here:
 
    - [Official site of VASP](https://www.vasp.at/)
