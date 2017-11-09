@@ -33,6 +33,9 @@ JB :
 # presonal config
 title: iShX Blog
 baseurl: /blog
+url: http://ishxiao.com
+
+google_analytics: UA-105389172-1
 
 me:
   name: ishxiao

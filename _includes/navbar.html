@@ -3,13 +3,13 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
 			<span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{site.baseurl}}/index.html">{{ site.title }}</a>
+          <a class="navbar-brand" href="{{ "/index.html" | relative_url }}">{{ site.title }}</a>
         </div>
 		<!-- navbar-form -->
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -18,13 +18,13 @@
 			<li class="dropdown">
 				<a href="{{site.baseurl}}/index.html" class="dropdown-toggle" data-toggle="dropdown">article<b class="caret"></b></a>
 				<ul class="dropdown-menu">
-					<li><a href="{{site.baseurl}}/categories.html">Categories</a></li>
-					<li><a href="{{site.baseurl}}/tags.html">Tags</a></li>
-					<li><a href="{{site.baseurl}}/archives.html">Archives</a></li>
+					<li><a href="{{ "/categories.html" | relative_url }}">Categories</a></li>
+					<li><a href="{{ "/tags.html" | relative_url }}">Tags</a></li>
+					<li><a href="{{ "/archives.html" | relative_url }}">Archives</a></li>
 				</ul>
 			</li>
-			<li><a href="{{site.baseurl}}/notes.html">Notes</a></li>
-			<li><a href="{{site.baseurl}}/about.html">About</a></li>
+			<li><a href="{{ "/notes.html" | relative_url }}">Notes</a></li>
+			<li><a href="{{ "/about.html" | realtive_url }}">About</a></li>
 			</ul>
 			<div>
 		</div>
