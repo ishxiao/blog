@@ -202,6 +202,33 @@ Even the pure sang theorist may be interested in some aspects of Computational p
 
 # 16 Advanced Quantum Mechanics
 
+- Hilbert space
+- Atomic transitions
+- Emission and absorption of light
+- Stimulated emission
+- Density matrix
+- Interpretation of QM
+- The Bell inequalities
+- Towards relativistic QM: The Dirac equation, finestructure
+- Electrons and positrons
+- BCS theory for supraconductivity
+- Quantum Hall effect
+- Advanced scattering theory
+- Dispersion relations
+- Perturbation expansion
+- WKB approximation, Extremum principle
+- Bose-Einstein condensation
+- Superliquid helium
+
+- [Prof. Stringari’s course on Ultracold Fluids.](http://www.phys.ens.fr/cours/Sandro/index.html)
+- [Introduction to the Quantum Hall effect by A.H. MacDonald](http://arxiv.org/pdf/cond-mat/9410047.pdf)
+- [Introduction to Coherent States and Quantum Information Theory by K. Fujii](http://arxiv.org/pdf/quant-ph/0112090.pdf)
+- [Tutorial on Quantum information by Peter Zoller](http://www.cfa.harvard.edu/itamp/bec/zoller/talk.pdf)
+- [Intoduction to Quantum Computation by A. Chatterjee](http://arxiv.org/pdf/quant-ph/0312111.pdf)
+- [Advanced QM by Freeman J. Dyson](http://arxiv.org/abs/quant-ph/0608140)
+- [K. Schulten’s notes on advanced QM](http://www.ks.uiuc.edu/Services/Class/PHYS480/qm_PDF/QM_Book.pdf)
+- [James Branson, Advanced Quantum Theory](http://quantummechanics.ucsd.edu/ph130a/130_notes.pdf)
+
 # 17 Phenomenology
 
 - Subatomic particles (mesons, baryons, photons, leptons, quarks) and cosmic rays - - property of materials and chemistry
@@ -239,19 +266,25 @@ Cosmology and Astrophysics are relatively young branches of science where a lot 
 
 # 22 Supersymmetry and Supergravity
 
-...
+In theoretical physics, supergravity (supergravity theory; SUGRA for short) is a field theory that combines the principles of supersymmetry and general relativity. In supergravity, supersymmetry is local (in contrast to non-gravitational supersymmetric theories, such as the Minimal Supersymmetric Standard Model). Since the generators of supersymmetry (SUSY) are convoluted with the Poincaré group to form a super-Poincaré algebra, it can be seen that gravity follows naturally from local supersymmetry.
 
 # 23 Astro Particle Physics
 
-...
+Astrophysics is the branch of astronomy that employs the principles of physics and chemistry "to ascertain the nature of the heavenly bodies, rather than their positions or motions in space." Among the objects studied are the Sun, other stars, galaxies, extrasolar planets, the interstellar medium and the cosmic microwave background.Their emissions are examined across all parts of the electromagnetic spectrum, and the properties examined include luminosity, density, temperature, and chemical composition. Because astrophysics is a very broad subject, astrophysicists typically apply many disciplines of physics, including mechanics, electromagnetism, statistical mechanics, thermodynamics, quantum mechanics, relativity, nuclear and particle physics, and atomic and molecular physics.
+
+In practice, modern astronomical research often involves a substantial amount of work in the realms of theoretical and observational physics. Some areas of study for astrophysicists include their attempts to determine: the properties of dark matter, dark energy, and black holes; whether or not time travel is possible, wormholes can form, or the multiverse exists; and the origin and ultimate fate of the universe. Topics also studied by theoretical astrophysicists include: Solar System formation and evolution; stellar dynamics and evolution; galaxy formation and evolution; magnetohydrodynamics; large-scale structure of matter in the universe; origin of cosmic rays; general relativity and physical cosmology, including string cosmology and astroparticle physics.
 
 # 24 Super String Theory
 
-...
+Superstring theory is an attempt to explain all of the particles and fundamental forces of nature in one theory by modeling them as vibrations of tiny supersymmetric strings.
+
+'Superstring theory' is a shorthand for supersymmetric string theory because unlike bosonic string theory, it is the version of string theory that accounts for both fermions and bosons and incorporates supersymmetry to model gravity.
+
+Since the second superstring revolution, the five superstring theories are regarded as different limits of a single theory tentatively called M-theory.
 
 # 25 Texts and Other resources
 
-There are many more lecture notes to be found on the web.
+There are many more [lecture notes to be found on the web](http://www.theassayer.org/cgi-bin/asbrowsesubject.cgi?class=Q#freeclassQC).
 There are numerous good books on all sorts of topics in Theoretical Physics. Here are a few:
 
 **Classical Mechanics:**
