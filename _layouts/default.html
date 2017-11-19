@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    {% include header.html %}
-  </head>
-	<!-- hack iOS CSS :active style -->
-  <body ontouchstart="">
-    <div class="container" style = "max-width: 960px;">
-	
-      <!--{ %include intro.html %}-->
-      {% include navbar.html %} 
-      
-	  <div class = "content">
-	  {{ content }}
-	  </div>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-	  {% include footer.html %}
-	</div> <!-- container -->
-	    
-    {% include scripts.html %}	
-  </body>
+    {% include head.html %}
+
+    <body>
+
+        {% include header.html %}
+
+        <main class="page-content" aria-label="Content">
+            <div class="wrapper">
+                {{ content }}
+            </div>
+        </main>
+
+        {% include footer.html %}
+        
+        {% include scripts.html %}
+        
+    </body>
 </html>

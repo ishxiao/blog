@@ -1,10 +1,9 @@
 ---
-title: How to Make this Website
-time: 2017-06-27 16:00:00 +0800
 layout: post
+title: "How to Make this Website"
+time: 2017-06-27 16:00:00 +0800
 keywords: jekyll, github
-categories : [jekyll]
-tags : [github, jekyll]
+categories: post
 ---
 
 I've designed [my homepage][1] recently.

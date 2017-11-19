@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: About
+permalink: /about/
 ---
 
 ## Resume
@@ -11,8 +12,4 @@ title: About
 
 ## Contact
 
-- <a href="mailto:{{ site.me.email }}" title="Email"><span class="glyphicon glyphicon-envelope"></span> {{ site.me.email }}</a>
-
-## About
-
-* Built Date: Sunday, June 25, 2017
+- <a href="mailto:{{ site.email }}" title="Email">{{ site.email }}</a>
