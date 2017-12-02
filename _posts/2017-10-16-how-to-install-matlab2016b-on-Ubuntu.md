@@ -3,8 +3,8 @@ title: How to install Matlab2016b on Ubuntu 16.04 LTS
 time: 2017-10-16 12:36:00 +0800
 layout: post
 keywords: Matlab, Ubuntu, Linux
-categories : [Ubuntu]
-tags : [Matlab]
+categories: Ubuntu
+tags: Matlab
 ---
 
 This tutorial will explain how to install Matlab2016b on Ubuntu 16.04 LTS.

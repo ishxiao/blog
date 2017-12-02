@@ -3,8 +3,8 @@ title: Pure CSS read more toggle
 time: 2017-07-26 13:00:00 +0800
 layout: post
 keywords: CSS
-categories : [html]
-tags : [html]
+categories: html
+tags: html
 ---
 
 ## Preview ##

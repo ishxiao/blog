@@ -3,8 +3,8 @@ title: How to become a GOOD Theoretical Physicist
 time: 2017-08-27 12:36:00 +0800
 layout: post
 keywords: Physics
-categories : [Physics]
-tags : [Physics]
+categories: Physics
+tags: Physics
 ---
 
 **Table of Contents**

@@ -3,7 +3,7 @@ title: How to Solve Gamma Function
 time: 2017-07-02 18:00:00 +0800
 layout: post
 keywords: MathJax, math
-categories : [latex, github-pages]
+categories: math
 tags : [MathJax, math]
 ---
 
@@ -94,4 +94,4 @@ $$
 More information see [here](https://en.wikipedia.org/wiki/Gamma_function).
 
 Related article maybe useful to you:
- - [How to Support $$\LaTeX{}$$ in GitHub-Pages]({{site.baseurl}}/2017/06/how-to-support-latex-in-github-pages.html)
+ - [How to Support $$\LaTeX{}$$ in GitHub-Pages]({{site.baseurl}}/html/2017/06/how-to-support-latex-in-github-pages.html)

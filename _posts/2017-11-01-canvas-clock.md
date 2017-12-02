@@ -2,7 +2,7 @@
 layout: post
 title:  "Canvas Clock"
 date:   2017-11-01 09:00:00 +0800
-categories: HTML
+categories: html
 ---
 
 Build an analog clock using HTML canvas.

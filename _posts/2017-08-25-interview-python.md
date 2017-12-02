@@ -3,8 +3,8 @@ title: Interview Python
 time: 2017-08-25 13:00:00 +0800
 layout: post
 keywords: python
-categories : [Notes]
-tags : [python]
+categories: python
+tags: python
 ---
 
 **Table of Contents**

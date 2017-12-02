@@ -3,8 +3,8 @@ title: How to configure sublime text
 time: 2017-10-16 12:36:00 +0800
 layout: post
 keywords: Sublime, LaTex, Markdown
-categories : [Ubuntu]
-tags : [Sublime]
+categories: Ubuntu
+tags: Sublime
 ---
 
 Install package
