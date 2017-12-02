@@ -70,7 +70,7 @@ Open a new terminal (such as, press `CTRL+ALT+T`), and type command in the follo
 
 ```
 $ mkdir /media/[YOUR-USERNAME]/Matalb_R2016b
-$ sudo umount /media[YOUR-USERNAME]/Matlab_R2016b
+$ sudo umount /media/[YOUR-USERNAME]/Matlab_R2016b
 $ sudo mount -t auto -o loop *dvd2.iso /media/Matlab_R2016b
 ```
 
@@ -81,7 +81,7 @@ Once finished the installing in the GUI, then umount the dvd2 from `/media/Matla
 
 ```
 $ sudo umount /media/[YOUR-USERNAME]/Matlab_R2016b
-$ rmdir /media[YOUR-USERNAME]/Matlab_R2016b
+$ rmdir /media/[YOUR-USERNAME]/Matlab_R2016b
 ```
 
 Then try to activate Matlab.
