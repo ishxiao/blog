@@ -7,7 +7,6 @@ categories: html
 tags: html
 ---
 
-<head>
 <style> 
 #div1 {
     white-space: nowrap; 
@@ -26,9 +25,10 @@ tags: html
 }
 
 </style>
-</head>
 
 ### Preview ###
+
+<p>... <div id = "more_content"> <a onclick = "show_more_content()"> Read more </a> </div></p>
 
 <script>
 function show_more_content(){
@@ -36,18 +36,16 @@ function show_more_content(){
 }
 </script>
 
-<p>... <div id = "more_content"> <a onclick = "show_more_content()"> Read more </a> </div></p>
-
 
 **Code**
+
+    <p> word word word <div id = "more_content"> <a onclick = "show_more_content()"> Read more </a> </div></p>
 
 	<script>
 	function show_more_content(){
 	  document.getElementById('more_content').innerHTML = additional_content;
 	}
 	</script>
-	
-	<p> word word word <div id = "more_content"> <a onclick = "show_more_content()"> Read more </a> </div></p>
 
 ### Preview ###
 
