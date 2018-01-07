@@ -96,7 +96,8 @@ $$
 II. Numerical analysis
 
 Evaluate Gamma function in matlab.
-1. Evaluate the gamma function with a scalar and a vector.
+
+1.Evaluate the gamma function with a scalar and a vector.
 
 ```
 >> y = gamma(0.5)
@@ -112,7 +113,7 @@ y =
     1.0157   -3.1909    6.8336   -7.8012    1.1046    0.9482    1.7621
 ```
 
-2.  Plot the gamma function and its inverse.
+2.Plot the gamma function and its inverse.
 
 ```
 % PlotGammaFunctionExample.m
@@ -126,12 +127,12 @@ grid on
 
 Figure.
 
-![alt text](https://github.com/ishxiao/blog/blob/gh-pages/images/PlotGammaFunctionExample.png "Plot Gamma Function Example")
+![alt text](/blog/images/PlotGammaFunctionExample.png "Plot Gamma Function Example")
 
-In addition, the domain of the gamma function extends to negative real numbers by analytic continuation, with simple poles at the negative integers. This extension arises from repeated application of the recursion relation.
+In addition, the domain of the gamma function extends to negative real numbers by analytic continuation, with simple poles at the negative integers. This extension arises from repeated application of the recursion relation
 
 $$
-\Gamma(n-1) = \frac{\Gamma(n)}{n-1}
+\Gamma(n-1) = \frac{\Gamma(n)}{n-1}.
 $$
 
 More information see [here](https://en.wikipedia.org/wiki/Gamma_function).
