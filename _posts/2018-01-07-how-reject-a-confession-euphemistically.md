@@ -15,6 +15,7 @@ This is never an easy decision. I really do appreciate your interest and hope th
 In the meantime, we wish you a good luck with your girlfriend search. Thanks again for your interest in being my boyfriend.
 
 Legal Disclaimer:
+
 The information contained in this message may be privileged and confidential. It is intended to be read only by the individual or entity to whom it is addressed or by their designed. If the reader of this message is not the intended recipient, you are on notice that any distribution of this message, in any form, is strictly prohibited. If you have received this message in error, please immediately notify the sender and delete or destroy any copy of this message!
 
 Version 2
