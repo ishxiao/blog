@@ -1,11 +1,13 @@
 ---
 title: How to Solve Gamma Function
-time: 2017-07-02 18:00:00 +0800
+time: 2017-01-07 21:00:00 +0800
 layout: post
 keywords: MathJax, math
 categories: math
 tags : [MathJax, math]
 ---
+
+I. Theoretical Analysis
 
 **Gamma Function** is defined in the following,
 
@@ -89,6 +91,47 @@ Therefore,
 
 $$
 I = \int_{-\infty}^{\infty} e^{-x^2} \mathrm{d}x = \boxed{\sqrt{\pi}}.
+$$
+
+II. Numerical analysis
+
+Evaluate Gamma function in matlab.
+1. Evaluate the gamma function with a scalar and a vector.
+
+```
+>> y = gamma(0.5)
+
+y =
+
+    1.7725
+    
+>> y = gamma(-pi:pi)
+
+y = 
+
+    1.0157   -3.1909    6.8336   -7.8012    1.1046    0.9482    1.7621
+```
+
+2.  Plot the gamma function and its inverse.
+
+```
+% PlotGammaFunctionExample.m
+fplot(@gamma)
+hold on
+fplot(@(x) 1./gamma(x))
+legend('\Gamma(x)','1/\Gamma(x)')
+hold off
+grid on
+```
+
+Figure.
+
+![alt text](https://github.com/ishxiao/blog/blob/gh-pages/images/PlotGammaFunctionExample.png "Plot Gamma Function Example")
+
+In addition, the domain of the gamma function extends to negative real numbers by analytic continuation, with simple poles at the negative integers. This extension arises from repeated application of the recursion relation.
+
+$$
+\Gamma(n-1) = \frac{\Gamma(n)}{n-1}
 $$
 
 More information see [here](https://en.wikipedia.org/wiki/Gamma_function).
