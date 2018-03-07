@@ -333,7 +333,7 @@ There are numerous good books on all sorts of topics in Theoretical Physics. Her
 - Solid State Physics - Ashcroft, Neil W, Mermin, David N
 - Introduction to Solid State Physics 7th edition- Kittel, Charles
 
-**Special Relativity:
+**Special Relativity:**
 - Classical Mechanics - Point Particles And Relativity - W. Greiner
 - Introduction to the theory of relativity and the principles of modern physics - H. Yilmaz
 
