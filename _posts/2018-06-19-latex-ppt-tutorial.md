@@ -9,7 +9,7 @@ tags : [poem]
 
 ## Preview
 
-<object width="100%" height="500px" data="{{site.baseurl}}/assets/attachment/beamer-tutorial.pdf#page=1" type="application/pdf">
+<object width="100%" height="480px" data="{{site.baseurl}}/assets/attachment/beamer-tutorial.pdf#page=1" type="application/pdf">
    <p><b>Example fallback content</b>: This browser does not support PDFs. Please download the PDF to view it: <a href="{{site.baseurl}}/assets/attachment/beamer-tutorial.pdf">Download PDF</a>.</p>
 </object>
 
