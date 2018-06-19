@@ -41,7 +41,7 @@ Step 1: Mount the directory
 -------------------------------------------
 
 ```
-$ sudo mkdir /media/[YOUR-USERNAME]/Matalb_R2016b
+$ sudo mkdir /media/[YOUR-USERNAME]/Matlab_R2016b
 $ sudo mount -t auto -o loop R2016b_glnxa64_dvd1.iso /media/[YOUR-USERNAME]/Matlab_R2016b
 ```
 
@@ -69,7 +69,7 @@ When completed about 90% of the installation, it asked you to insert the second 
 Open a new terminal (such as, press `CTRL+ALT+T`), and type command in the following.
 
 ```
-$ mkdir /media/[YOUR-USERNAME]/Matalb_R2016b
+$ mkdir /media/[YOUR-USERNAME]/Matlab_R2016b
 $ sudo umount /media/[YOUR-USERNAME]/Matlab_R2016b
 $ sudo mount -t auto -o loop *dvd2.iso /media/Matlab_R2016b
 ```
