@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How To Reject A Confession Euphemistically"
+title:  "How To Reject a Confession of Love Euphemistically"
 date:   2018-01-07 20:00:00 +0800
 categories: English
 ---
