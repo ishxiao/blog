@@ -20,8 +20,11 @@ layout: default
 
       </li>
       <div class="post-content">
-      {{ post.content | truncatewords:100 | strip_html }}
-      </div>
+      {{ post.content | post.excerpt | truncatewords:100 | strip_html }}
+      {% if post.excerpt != post.content %}
+      <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+      {% endif %}
+      </div>      
     {% endfor %}
   </ul>
 
