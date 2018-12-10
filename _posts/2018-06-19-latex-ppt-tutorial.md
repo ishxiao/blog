@@ -2,9 +2,9 @@
 title: \(\LaTeX{}\) PPT Tutorial
 time: 2018-06-19 11:00:00 +0800
 layout: post
-keywords: poem
-categories: poem
-tags : [poem]
+keywords: latex
+categories: latex
+tags : [latex]
 ---
 
 ## Preview
