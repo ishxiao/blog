@@ -1,4 +1,11 @@
-
+---
+title: Java基础知识
+time: 2019-03-03 22:00:00 +0800
+layout: post
+keywords: Java
+categories: Java
+tags : [Java]
+---
 
 <!-- MarkdownTOC -->
 
