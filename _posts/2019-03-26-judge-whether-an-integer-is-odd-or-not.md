@@ -7,7 +7,6 @@ categories: python
 tags : [python]
 ---
 
-```
 
 	# coding: utf-8
 	'''
@@ -48,4 +47,3 @@ tags : [python]
 	# ver 0.6
 	def isOdd_6(i):
 		return i&1 != 0
-```
