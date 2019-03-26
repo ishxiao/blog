@@ -12,7 +12,7 @@ tags : [python]
 	'''
 	file: test.py
 	
-	create on Sun Mar 26 8:00 2019
+	create on Tue Mar 26 8:00 2019
 	
 	@author: Xiao Shang
 	
