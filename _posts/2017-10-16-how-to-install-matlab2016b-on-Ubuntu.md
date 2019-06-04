@@ -71,13 +71,13 @@ Open a new terminal (such as, press `CTRL+ALT+T`), and type command in the follo
 ```
 $ mkdir /media/[YOUR-USERNAME]/Matlab_R2016b
 $ sudo umount /media/[YOUR-USERNAME]/Matlab_R2016b
-$ sudo mount -t auto -o loop *dvd2.iso /media/Matlab_R2016b
+$ sudo mount -t auto -o loop *dvd2.iso /media/[YOUR-USERNAME]/Matlab_R2016b
 ```
 
 Step 5: Complete the installation
 -------------------------------------------------
 
-Once finished the installing in the GUI, then umount the dvd2 from `/media/Matlab_R2016b`.
+Once finished the installing in the GUI, then umount the dvd2 from `/media/[YOUR-USERNAME]/Matlab_R2016b`.
 
 ```
 $ sudo umount /media/[YOUR-USERNAME]/Matlab_R2016b
