@@ -2,9 +2,9 @@
 title: Install Win10 from USB on Thinkpad-8
 time: 2019-05-16 9:30:00 +0800
 layout: post
-keywords: osn
-categories: os, windows
-tags : [os]
+keywords: os
+categories: os
+tags : [os, windows]
 ---
 
 UEFI system cannot boot from an NTFS formatted USB stick. We need to format it using FAT32.

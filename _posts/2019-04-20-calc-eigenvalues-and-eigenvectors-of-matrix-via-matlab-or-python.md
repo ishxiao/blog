@@ -3,7 +3,7 @@ title: Calc Eigenvalues and Eigenvectors of Matrix via Matlab or Python
 time: 2019-04-20 9:30:00 +0800
 layout: post
 keywords: matlab, python
-categories: matlab, python
+categories: program
 tags : [matlab, python]
 ---
 

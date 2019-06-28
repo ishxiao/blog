@@ -3,7 +3,7 @@ title: Judge whether an integer is odd or not
 time: 2019-03-26 14:30:00 +0800
 layout: post
 keywords: python
-categories: python
+categories: program
 tags : [python]
 ---
 
