@@ -100,7 +100,7 @@ $ sudo chmod 777 /usr/local/MATLAB/R2016b/bin/licenses/license_standalone.lic
 $ sudo chmod -R 777 /usr/local/MATLAB/R2016b
 ```
 
-**Note**: When first start the Matlab, try to destinate the license file to activate Matlab permanently. (`/usr/local/MATLAB/R2016b/bin/licenses/license_standalone.lic`)
+**Note**: When first start the Matlab, try to destinate the license file to activate Matlab permanently *without internet*. (default, `/usr/local/MATLAB/R2016b/bin/licenses/license_standalone.lic`)
 
 Step 6: Obtain support
 ----------------------
@@ -112,3 +112,5 @@ $ sudo apt-get install matlab-support
 ```
 
 *Tip*: Default directory: `/usr/local/MATLAB/R2016b`.
+
+
