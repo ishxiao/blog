@@ -50,7 +50,7 @@ Command Window
 
 <a href="{{site.baseurl}}/assets/attachment/result.txt">result.text</a>
 
-<a href="{{site.baseurl}}/assets/attachment/java/CalcApp.m">java code</a>
+<a href="{{site.baseurl}}/assets/attachment/java/CalcApp.java">java code</a>
 
 	/**
 	 * The CalcApp class implements an application that
