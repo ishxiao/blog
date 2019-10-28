@@ -7,7 +7,7 @@ categories: program
 tags : [matlab, java]
 ---
 
-Matlab code
+<a href="{{site.baseurl}}/assets/attachment/matlab/calc.m">Matlab code</a>
 
 	% calc the precise result of 2^167. 
 	clear all; clear;
@@ -20,7 +20,7 @@ Matlab code
 	str_result  = cell(1,N); % create N string cell to store the result of every step
 	last = 1; % initialized the digit of the result
 	fid  =fopen('result.txt','w'); % create a file (result.txt) to print the result
-	fprintf(fid,'## result of 2^167\n');
+	fprintf(fid,['## result of 2^', num2str(N),'\n']);
 	%
 	for idx = 1:N
 	    % multiply by 2 in every step
@@ -50,7 +50,7 @@ Command Window
 
 <a href="{{site.baseurl}}/assets/attachment/result.txt">result.text</a>
 
-Java code
+<a href="{{site.baseurl}}/assets/attachment/java/CalcApp.m">java code</a>
 
 	/**
 	 * The CalcApp class implements an application that
