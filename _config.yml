@@ -27,7 +27,7 @@ ChatraID: seXKBm3cgvvCSbQp3
 # Build settings
 markdown: kramdown
 # theme: ishx-theme-awesome
-plugins:
+plugins_dir:
   - jekyll-feed
   - jekyll-paginate
 
