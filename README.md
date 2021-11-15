@@ -1,6 +1,6 @@
 # ishx Blog
 
-- [building](https://github.com/ishxiao/blog/)|[running](https://ishxiao.github.io/blog/)
+[![Build Status](https://github.com/ishxiao/blog/workflows/jekyll/badge.svg)](https://github.com/ishxiao/blog/actions?query=workflow%3Ajekyll)
 
 
 Topics: Stay hungry, stay foolish.
