@@ -11,7 +11,7 @@ gemspec
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.6"
+gem "jekyll"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "ishx-awesome", "~> 0.1.1"
@@ -35,3 +35,4 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+gem "webrick", "~> 1.7"
