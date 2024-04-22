@@ -1,6 +1,6 @@
 # ishx Blog
 
-[![Deploy Jekyll site to Pages](https://github.com/ishxiao/blog/actions/workflows/jekyll.yml/badge.svg)](https://github.com/ishxiao/blog/actions/workflows/jekyll.yml)
+[![Jekyll](https://github.com/ishxiao/blog/actions/workflows/jekyll.yml/badge.svg)](https://github.com/ishxiao/blog/actions/workflows/jekyll.yml)
 
 Topics: Stay hungry, stay foolish.
 
