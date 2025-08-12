@@ -1,80 +1,58 @@
 name: Jekyll
 
+# Trigger workflow on push to gh-pages branch or manual run
 on:
   push:
     branches: ["gh-pages"]
   workflow_dispatch:
 
+# Set permissions needed for GitHub Pages deployment
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Prevent concurrent deployments from overlapping
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: macos-latest  # Use macOS runner (supports both x64 and ARM)
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Setup Ruby on Linux (ubuntu-latest)
-        if: runner.os == 'Linux'
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y build-essential libssl-dev libreadline-dev zlib1g-dev git curl
-          git clone https://github.com/rbenv/rbenv.git ~/.rbenv
-          git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
-          echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> $GITHUB_ENV
-          echo 'eval "$(rbenv init - bash)"' >> $GITHUB_ENV
-          source $GITHUB_ENV
-          ~/.rbenv/bin/rbenv install 3.2.2
-          ~/.rbenv/bin/rbenv global 3.2.2
-          ruby -v
-          gem install bundler
-
-      - name: Setup Ruby on macOS
-        if: runner.os == 'macOS'
+      - name: Setup Ruby environment
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.2'
-          bundler-cache: true
+          ruby-version: '3.2.2'    # Specify Ruby version to install
+          bundler-cache: true      # Cache gems installed by bundler for faster builds
 
-      - name: Setup Ruby on Windows
-        if: runner.os == 'Windows'
-        run: |
-          choco install ruby --version=3.2.2 -y
-          refreshenv
-          ruby -v
-          gem install bundler
-
-      - name: Setup GitHub Pages
+      - name: Configure GitHub Pages environment
         uses: actions/configure-pages@v5
         id: pages
 
-      - name: Build Jekyll Site
+      - name: Build the Jekyll site
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
-          JEKYLL_ENV: production
+          JEKYLL_ENV: production  # Set environment to production for optimized build
 
-      - uses: actions/upload-pages-artifact@v3
+      - name: Upload site artifact for deployment
+        uses: actions/upload-pages-artifact@v3
 
   deploy:
     needs: build
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: macos-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - uses: actions/deploy-pages@v4
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
         id: deployment
+
+
